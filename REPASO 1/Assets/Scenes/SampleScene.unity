@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 654474026}
   - component: {fileID: 654474025}
   m_Layer: 5
-  m_Name: Boton De Inicio
+  m_Name: Boton De Deteer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 1254435046}
   - component: {fileID: 1254435045}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Cronometro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

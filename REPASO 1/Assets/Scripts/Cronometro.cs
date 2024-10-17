@@ -8,10 +8,14 @@ public class Cronometro : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI cuenta;
 
-    float tiempo = 0.0f;
+    float horas = 00f;
+    float minutos = 00f;
+    float segundos = 00f;
+    float milisegundos = 00f;
 
-    private void Update()
+    public void Pausa()
     {
-        cuenta.text = tiempo.ToString(); 
+        
+        cuenta.text = horas.ToString(); 
     }
 }
