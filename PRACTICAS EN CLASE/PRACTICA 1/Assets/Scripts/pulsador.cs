@@ -6,7 +6,6 @@ using TMPro;
 public class pulsador : MonoBehaviour
 {
     float contador = 0.0f;
-    bool Tiempo = true;
     float pulsacion = 0;
 
     [SerializeField]
@@ -18,13 +17,15 @@ public class pulsador : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
-            if (Tiempo == true)
+            pulsacion++;
+            if (pulsacion == 1)
+            {
+                contador = 0.0f;
+            } else if (pulsacion == 2)
             {
                 TiempoTexto.text = contador.ToString();
-                
+                pulsacion = 0;
             }
-            
         }
     }
 }
